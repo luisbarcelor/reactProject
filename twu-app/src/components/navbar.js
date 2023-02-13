@@ -1,13 +1,14 @@
 import React from "react";
 import './styles/navbar.css'
 import logo from '../assets/icons/favicon.svg'
+import {Link} from "react-router-dom";
 
 function Navbar() {
     return (
         <nav id="menuCont" className="navbar navbar-expand-lg bg-light">
             <div id="menu" className="container-fluid">
-                <a id="logo" className="navbar-brand" href="/home"><img
-                    src={logo} alt={"Missing"}/>Tech World Updates</a>
+                <Link id="logo" className="navbar-brand" to="/"><img
+                    src={logo} alt={"Missing"}/>Tech World Updates</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +17,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul id="menuList" className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="/home">Inicio</a>
+                            <Link className="nav-link" aria-current="page" to="/">Inicio</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/featured">Destacado</a>
