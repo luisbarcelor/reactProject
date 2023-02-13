@@ -10,8 +10,8 @@ function Tips() {
                 <div id="thirdcont-1">
                     <div id="thirdcont-wrapper-1">
                         <div id="accordion-title">
-                            <h3><span dangerouslySetInnerHTML={{__html: ''}}></span> Tips de Seguridad en Internet <span
-                                dangerouslySetInnerHTML={{__html: ''}}></span></h3>
+                            <h3><span dangerouslySetInnerHTML={{__html: '&#128272'}}></span> Tips de Seguridad en Internet <span
+                                dangerouslySetInnerHTML={{__html: '&#127760'}}></span></h3>
                         </div>
                         <div id="thirdcont-accordion">
                             <div className="accordion accordion-flush" id="accordionExample">
@@ -170,7 +170,7 @@ function Tips() {
                                 si estás conectado a Internet... No querrás ser una víctima más...
                                 ¿Verdad?...brr...brr...
                                 Puedes registrarte en el botón de abajo y comunicarte con nosotros si necesitas
-                                ayuda... <span dangerouslySetInnerHTML={{__html: ''}}></span>
+                                ayuda... <span dangerouslySetInnerHTML={{__html: '&#128071'}}></span>
                             </p>
                         </div>
                         <div id="div-boton-sticky">
@@ -180,7 +180,7 @@ function Tips() {
 
                     <div id="thirdcont-wrapper-2">
                         <div id="thirdcont-2">
-                            <h2>La Seguridad es lo Primero <span dangerouslySetInnerHTML={{__html: ''}}></span></h2>
+                            <h2>La Seguridad es lo Primero <span dangerouslySetInnerHTML={{__html: '&#128737;&#65039'}}></span></h2>
                             <br/>
                             <p>
                                 Nos preocupamos por tí... Por este motivo nos complace compartir contigo

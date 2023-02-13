@@ -90,7 +90,7 @@ function Footer() {
                         <form id="formulario-2">
                             <input id="campo-2" type="email" name="correo-2" placeholder="alguien@email.com"/>
                             <input className="btn" id="submit-2" type="submit"
-                                   onClick="alert('Funcionalidad no disponible')" name="submit-2"
+                                   onClick={Warning} name="submit-2"
                                    value="Subscribirme"/>
                         </form>
                     </div>
@@ -126,6 +126,10 @@ function Footer() {
             </div>
         </div>
     );
+}
+
+function Warning() {
+    alert('Funcionalidad no disponible')
 }
 
 export default Footer;
